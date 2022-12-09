@@ -5,6 +5,7 @@ header{
     margin: auto;
     align-items: center;
 }
+
 .logo-container, .nav-links, .cart{
 display:flex
 }
@@ -22,13 +23,13 @@ nav{
 flex: 2;
 }
 .nav-links{
+    color: black;
+    text-decoration: none;
      justify-content: space-around;
      list-style: none;
-     text-decoration: none;
 }
-.nav-link{
+.nav-links{
     text-decoration: none;
-    color: F3EFE0#000000;
 }
 .cart{
 flex: 1;
@@ -79,9 +80,10 @@ align-items: center;
 }
 .cover{
     flex:1;
+    height: 60vh;
 }
 .cover img{
-    height: 20vh;
+    height: 100%
 }
 
 .box{
@@ -110,8 +112,8 @@ align-items: center;
 }
 .pp{
     position: absolute;
-    top: 58%;
-    left: 86%;
+    top: 56%;
+    left: 78%;
     width: 50px;
     height: 50px;
     background-color: #22A39F;
@@ -123,6 +125,112 @@ align-items: center;
     width: 50px;
     height: 50px; 
     border-radius: 50%;
-     top: 67%;
-    left: 86%;
+    top: 64%;
+    left: 78%;
+}
+.meorepp{
+    position: absolute;
+    background-color: #22A39F;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    top: 48%;
+    left: 78%;
+}
+.burtibrat{
+    position: absolute;
+    background-color: #22A39F;
+    width: 10px;
+    height: 939px;
+    border-radius: 0px;
+    top: 0px;
+    left: 595px;
+}
+.mesamepp{
+    position: absolute;
+    background-color: #22A39F;
+    width: 8px;
+    height: 30%;
+    border-radius: 0px;
+    left: 90%;
+    bottom: 0px;
+}
+.meotxepp{
+    position: absolute;
+    background-color: #222222;
+    width: 8px;
+    height: 40%;
+    border-radius: 0px;
+    left: 92%;
+    bottom: 0px;
+}
+.mexutepp{
+    position: absolute;
+    background-color: #222222;
+    width: 8px;
+    height: 20%;
+    border-radius: 0px;
+    left: 42%;
+    bottom: 0px;
+}
+.meeqvsepp{
+    position: absolute;
+    background-color: #22A39F;
+    width: 8px;
+    height: 40%;
+    border-radius: 0px;
+    left: 44%;
+    bottom: 0px;
+}
+.meshvidepp{
+    position: absolute;
+    background-color: #222222;
+    width: 8px;
+    height: 13%;
+    border-radius: 0px;
+    left: 46%;
+    bottom: 0px;
+}
+.burti{
+    position: absolute;
+    background-color: #22A39F;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    top: 40%;
+    left: 78%;
+}
+.burti, .burti2, .burti3{
+    position: absolute;
+    background-color: #22A39F;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.burti{
+    top:20px;
+    left: 20px;
+}
+.burti2{
+    top: 100px;
+    left: 20px;
+}
+.burti3{
+    top: 180px;
+    left: 20px;
+}
+.burti1{
+    position: absolute;
+    background-color: #22A39F;
+    bottom: 0px ;
+    width: 8px;
+    height: 40%;
+}
+.burti00{
+    position: absolute;
+    background-color: #22A39F;
+    bottom: 0px ;
+    width: 8px;
+    height: 15%;
+    left: 40px
 }
