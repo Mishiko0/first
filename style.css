@@ -1,0 +1,128 @@
+header{
+    display: flex;
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+.logo-container, .nav-links, .cart{
+display:flex
+}
+.logo-container{
+    margin: auto;
+    height: 110px;
+    flex:1
+}
+.logo{
+font-weight: 400;
+margin: 5px;
+height: 20px;
+}
+nav{
+flex: 2;
+}
+.nav-links{
+     justify-content: space-around;
+     list-style: none;
+     text-decoration: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: F3EFE0#000000;
+}
+.cart{
+flex: 1;
+justify-content: flex-end;
+height: 30px;
+}
+.presentation{
+display:flex;
+width: 80%;
+margin: auto;
+min-height: 80vh;
+align-items: center;
+}
+.introduction{
+    flex:1;
+}
+.intro-text h1{
+    font-size: 44px;
+    font-weight: 500;
+    color: #22A39F
+}
+.intro-text p{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #F3EFE0;
+}
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+.cta-select{
+    border: 2px solid #22A39F;
+    background: transparent;
+    color: #22A39F;
+    width: 150px;
+    height:50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cta-add{
+    background: #22A39F;
+    width: 150px;
+    height:50px;
+    cursor: pointer;
+    font-size: 16px;
+    border:none;
+    color: white;
+    margin: 30px 0px 0px 30px;
+}
+.cover{
+    flex:1;
+}
+.cover img{
+    height: 20vh;
+}
+
+.box{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    width: 450px;
+    height: 400px;
+    background-color: #222222;
+    clip-path: polygon(1200% 100%, 100% 0%, 0% 100%);
+}
+.pic{
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    height: 20px;
+}
+.color{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 600px;
+    height: 939px;
+    background-color: #222222;
+    z-index: -1;
+}
+.pp{
+    position: absolute;
+    top: 58%;
+    left: 86%;
+    width: 50px;
+    height: 50px;
+    background-color: #22A39F;
+    border-radius: 50%;
+}
+.arvici{
+    position: absolute;
+    background-color: #22A39F;
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+     top: 67%;
+    left: 86%;
+}
