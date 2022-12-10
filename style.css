@@ -23,7 +23,7 @@ margin: 5px;
 height: 20px;
 }
 nav{
-flex: 2;
+flex: 3;
 }
 .nav-links{
     font-weight: 560;
@@ -109,14 +109,14 @@ align-items: center;
     position: absolute;
     top: 0%;
     left: 0%;
+		bottom: 0%;
     width: 600px;
-    height: 939px;
     background-color: #222222;
     z-index: -1;
 }
 .pp{
     position: absolute;
-    top: 56%;
+    top: 52%;
     left: 78%;
     width: 50px;
     height: 50px;
@@ -129,7 +129,7 @@ align-items: center;
     width: 50px;
     height: 50px; 
     border-radius: 50%;
-    top: 64%;
+    top: 62.5%;
     left: 78%;
 }
 .meorepp{
@@ -138,14 +138,14 @@ align-items: center;
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    top: 48%;
+    top: 42%;
     left: 78%;
 }
 .burtibrat{
     position: absolute;
     background-color: #22A39F;
     width: 10px;
-    height: 939px;
+		bottom: 0%;
     border-radius: 0px;
     top: 0px;
     left: 595px;
@@ -201,10 +201,10 @@ align-items: center;
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    top: 40%;
+    top: 41%;
     left: 78%;
 }
-.burti, .burti2, .burti3{
+.burti, .burti2, .burti3, .boloburti{
     position: absolute;
     background-color: #22A39F;
     width: 50px;
@@ -237,4 +237,18 @@ align-items: center;
     width: 8px;
     height: 15%;
     left: 40px
+}
+.boloburti{
+	top: 73%;
+	left: 78%;
+}
+.back{
+	position: absolute;
+	background-color: #22A39F;
+	width: 66px;
+	height: 31.5px;
+	top: 4%;
+	right: 62%;
+	z-index: -1;
+	border-radius: 50px;
 }
