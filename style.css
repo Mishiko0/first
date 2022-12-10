@@ -33,7 +33,12 @@ flex: 3;
     list-style: none;
 }
 .nav-links{
-    text-decoration: none;
+    cursor: pointer;
+    font-size: 100%;
+    border:none;
+    color: #22A39F;
+    margin: 30px 0px 0px 80px;
+    text-align: center;
 }
 .cart{
 flex: 1;
@@ -49,6 +54,7 @@ align-items: center;
 }
 .introduction{
     flex:1;
+    left: 20px;
 }
 .intro-text h1{
     font-size: 44px;
@@ -109,7 +115,7 @@ align-items: center;
     position: absolute;
     top: 0%;
     left: 0%;
-		bottom: 0%;
+    bottom: 0%;
     width: 600px;
     background-color: #222222;
     z-index: -1;
@@ -140,15 +146,6 @@ align-items: center;
     border-radius: 50px;
     top: 42%;
     left: 78%;
-}
-.burtibrat{
-    position: absolute;
-    background-color: #22A39F;
-    width: 10px;
-		bottom: 0%;
-    border-radius: 0px;
-    top: 0px;
-    left: 595px;
 }
 .mesamepp{
     position: absolute;
@@ -232,7 +229,7 @@ align-items: center;
 }
 .burti00{
     position: absolute;
-    background-color: #22A39F;
+    background-color: hsl(178, 65%, 39%);
     bottom: 0px ;
     width: 8px;
     height: 15%;
@@ -242,13 +239,75 @@ align-items: center;
 	top: 73%;
 	left: 78%;
 }
-.back{
-	position: absolute;
-	background-color: #22A39F;
-	width: 66px;
-	height: 31.5px;
-	top: 4%;
-	left: 533px;
-	z-index: -1;
-	border-radius: 50px;
+
+@media screen and (max-width:  576px){
+    .nav-links{
+        margin: 15px;
+    }
+    .burti{
+        top: 90px;
+    }
+    .burti2{
+        top: 270px;
+    }
+    .pic{
+        top: 962px;
+        left: 17px;
+    }
+    .box{
+        top: 1070px;
+        left: 10px
+    }
+    .pp{
+        top: 1210px;
+        left: 425px;
+    }
+    .arvici{
+        top: 1315px;
+        left: 425px;
+    }
+    .meorepp{
+        top: 1422px;
+        left: 425px;
+    }
+    .boloburti{
+        top: 1530px;
+        left: 425px;
+    }
+    .burti00{
+        height: 100px;
+        bottom: -10%;
+    }
+    .burti1{
+        height: 250px;
+        bottom: -10%;
+    }
+    .mesamepp{
+        height: 150px;
+        bottom: -10%;
+    }
+    .meeqvsepp{
+        height: 250px;
+        bottom: -10%;
+    }
+    .meotxepp{
+        bottom: -10%;
+    }
+    .introduction{
+        text-align: center;
+        height: 500px;
+        margin: 120px;
+    }
+    .cta-add{
+        margin: 20px;
+        margin-left: 20px;
+    }
+    .color{
+        width: 80%;
+        height: 175%;
+    }
+}
+@media screen and (max-width:  768px)
+{
+    
 }
